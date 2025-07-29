@@ -1,2 +1,9 @@
 streamlit
 textblob
+google-generativeai
+python-dotenv
+scikit-learn
+transformers
+numpy
+matplotlib
+collections
