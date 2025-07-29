@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 class ImaginationAgent(BaseAgent):
     def __init__(self):
-        self.model = genai.GenerativeModel("gemini-1.5-flash-latest")
+        self.model = genai.GenerativeModel("gemini-2.0-flash")
 
     def receive(self, message: str):
         prompt = f"Imagine a creative and helpful response or story based on this input:\n\n{message}"
